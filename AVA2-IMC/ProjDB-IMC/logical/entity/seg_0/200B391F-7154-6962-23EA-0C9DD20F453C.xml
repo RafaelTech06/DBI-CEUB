@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="200B391F-7154-6962-23EA-0C9DD20F453C" name="indiceMassaCorporal">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 22:44:22 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>indiceMassaCorporal</preferredAbbreviation>
+<shortName>indiceMassaCorporal</shortName>
+<synonym>indiceMassaCorporal</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="D87A43AA-03D4-D62F-3733-81124875FE05">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 23:11:35 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Peso" id="245465D9-6288-DE22-7D4C-673AE5F92915">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 23:12:00 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Altura" id="14202064-C646-CBD2-1AE4-150ABD1163B4">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 23:12:12 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diasTreino" id="74DADF35-CF5B-B43E-AB48-C0EC25B5CAC8">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 23:12:19 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="restricaoAlimentar" id="5800443D-5E9C-F133-DD37-E62C1BF70A36">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 23:12:51 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diasDieta" id="6AE20A71-75D4-C898-0B9A-DDC5318B0655">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 23:12:28 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataIMC" id="99DFADCF-98B8-B1E9-55D3-A48A3ED1A1F0">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 23:06:08 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imc" id="3DC2033B-9D98-37FA-0617-93B2F6FC7A82">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 23:06:19 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NivelObesidade" id="3852D44F-5AD0-05E6-9010-8013615C3420">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 23:06:57 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

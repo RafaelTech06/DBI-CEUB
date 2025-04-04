@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91E28F85-4B37-30B3-0BFB-99A2CBED8680" name="Cliente">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 22:43:24 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Cliente</preferredAbbreviation>
+<shortName>Cliente</shortName>
+<synonym>Cliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="2EE8924B-6DF3-B74B-4EA8-2EE808ED49B9">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 22:43:35 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="E02F9786-4748-24BD-E7F5-79A66408266C">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 22:43:47 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cpf" id="6A63D9C0-424C-D068-F3EA-6D6359275BC6">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 22:50:38 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="517009B6-42C6-5109-51D2-0D2076A5D7A9">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 22:43:52 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="8F6C7820-47ED-2337-5EC1-454965D25D4E">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 22:43:59 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gênero" id="634C6FC9-E6F3-382E-6477-CC711AE177F7">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-03 22:44:10 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A7C6E2EE-E1A7-9F68-560B-2459D4752DC3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
