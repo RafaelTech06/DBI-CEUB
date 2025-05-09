@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3783408-8FD3-B38C-BCA3-0D3D0A3EB06D" name="Pet">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-03-27 23:46:13 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="0C128DDE-7DE3-6E9B-E532-138D6D8B6C67" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Pet</preferredAbbreviation>
+<shortName>Pet</shortName>
+<synonym>Pet</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="AE42186C-41CC-B1F8-631C-307041A69159">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-03-27 23:46:21 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="0C128DDE-7DE3-6E9B-E532-138D6D8B6C67" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especie" id="0155EB74-DB94-212C-13DC-E59822F8F7C7">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-03-27 23:46:25 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="0C128DDE-7DE3-6E9B-E532-138D6D8B6C67" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="raca" id="3721E1B2-E152-A55F-BC93-821E33DA7889">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-03-27 23:46:31 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="0C128DDE-7DE3-6E9B-E532-138D6D8B6C67" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="2C1BEDDD-B9C8-770D-0090-0A12C2B809CF">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-03-27 23:46:38 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="0C128DDE-7DE3-6E9B-E532-138D6D8B6C67" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="67D80232-E356-3966-B4D7-0F4F291F9CBC">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-03-27 23:46:48 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="0C128DDE-7DE3-6E9B-E532-138D6D8B6C67" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registro" id="C2FE48CA-3BBF-D39A-5B00-D9CD34C3BD7B">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-03-27 23:46:53 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="0C128DDE-7DE3-6E9B-E532-138D6D8B6C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anotacaoCuidados" id="4208EACC-20B6-5E42-DAC9-246216BB1640">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-03-27 23:47:03 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="0C128DDE-7DE3-6E9B-E532-138D6D8B6C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

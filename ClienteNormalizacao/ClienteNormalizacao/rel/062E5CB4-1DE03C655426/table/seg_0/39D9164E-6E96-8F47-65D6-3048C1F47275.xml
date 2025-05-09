@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39D9164E-6E96-8F47-65D6-3048C1F47275" name="ItensPedidos">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>71499FED-E3E1-4093-1040-6733CBD92187</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numeroPedido" id="B3A6E778-060C-D4AD-E81A-938C454607F7">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>D7870049-5A78-5DD6-BB27-1DA72A2B9B50</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigoProduto" id="9A988181-C8B1-672D-9C13-73EFF0F1C565">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<comment><![CDATA[Código de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>E7803B94-2505-73FD-D1D6-0CB1240F22AF</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeProduto" id="6CA1EFCC-9158-A6EF-12C6-B045E7B92A41">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<comment><![CDATA[Nome de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>C2E522BF-CADC-29F9-E64A-24A1D4F80A04</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitarioProduto" id="D18A9BCA-6679-93C0-837B-98376D3E2246">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<comment><![CDATA[Preço unitário de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>2B3F0F35-1336-8231-A0E0-C85E5130260D</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeProduto" id="B62FFE01-1B41-F6A5-F674-689E579E4777">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<comment><![CDATA[Quantidade de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>DE130600-E810-7E29-9017-4251671CD078</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedidos_numeroPedido" id="6115B3A4-1D48-DAEC-E921-CE18CEC2B85F">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>D4BB164B-389F-F396-305F-051D38D94C7C</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94FE241E-7B1B-536C-4836-57B272A11271" referredColumn="041BCFD6-A743-405F-FE4F-57A980031CFB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27A39428-1C7E-35F3-D99F-10A75473E9A2" name="ItensPedidos_PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>04366F57-9EB0-BF45-24DA-C8B9F942D924</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A988181-C8B1-672D-9C13-73EFF0F1C565"/>
+<colUsage columnID="B3A6E778-060C-D4AD-E81A-938C454607F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78F5C1D4-0DAD-4063-BCF4-C942A075B333" name="ItensPedidos_Pedidos_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>EC5A5151-84F8-4D57-706B-2DA89026BB86</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6115B3A4-1D48-DAEC-E921-CE18CEC2B85F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

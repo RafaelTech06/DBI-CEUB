@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="29C33F24-FC80-34C9-704D-6010C3232E58" containerWithKeyObject="8C4B2D06-2E67-3A77-920A-732F7C5C7EAB" localFKIndex="6954F568-E7E4-D9F1-EE28-850DB22EDEE7" name="clienteIndiceMassaCorporal_indiceMassaCorporal_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:43:42 UTC</createdTime>
+<generatorID>0383A6D9-7914-5019-D4A8-72B55BCA06C0</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<referredTableLongName>indiceMassaCorporal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>542B87C0-643C-319A-5DF7-851FE98FE1A0</referredTableID>
+<keyObject>458B4945-4A7B-93EB-AD1B-D4EC5FB99C04</keyObject>
+<referredKeyID>458B4945-4A7B-93EB-AD1B-D4EC5FB99C04</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>indiceMassaCorporal_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

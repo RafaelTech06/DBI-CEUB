@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A0579D0-D877-9252-500C-395F01E9F6C4" name="Cliente">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:55:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="DC27DABF-5965-0CBA-BC5E-35159EFB1618" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCliente" id="DA30134B-22E6-7D55-F0CA-A2716283DE5D">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:56:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="DC27DABF-5965-0CBA-BC5E-35159EFB1618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="03E7ECA8-E53B-DAED-FA0A-ECDF6E4AB5FD">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:56:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="DC27DABF-5965-0CBA-BC5E-35159EFB1618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="1885CD9C-CCC8-EEEA-22EA-BCDC29E6393F">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:56:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="DC27DABF-5965-0CBA-BC5E-35159EFB1618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="E9D2E916-1341-0300-2A98-A28F8010137D">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:56:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="DC27DABF-5965-0CBA-BC5E-35159EFB1618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="305B7D2E-CFDA-AA74-2F0B-B006E7AEC74B">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:56:21 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="DC27DABF-5965-0CBA-BC5E-35159EFB1618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPedido" id="AD2B70EB-45DF-14A6-5DE5-37344ED32FED">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:11:35 UTC</createdTime>
+<generatorID>39BF9C37-82F3-C26E-309D-CDA9F46072A2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="DC27DABF-5965-0CBA-BC5E-35159EFB1618" value="true"/>
+</engineerTo>
+<referedAttribute>623DB878-0FC2-CEC0-A79B-218EDFA9C625</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8E2A671-8981-F06B-8BEC-124C6F01D7E4" name="Cliente PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:01:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DC27DABF-5965-0CBA-BC5E-35159EFB1618" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA30134B-22E6-7D55-F0CA-A2716283DE5D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99591110-E847-F152-04FA-5F34F6914D9F" name="EnderecoCliente">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 22:34:40 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="AE173C8D-7881-BA1A-02BB-894E1B5DF7B6">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 22:34:40 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEnderecoCliente" id="FE052015-23A5-5720-BEF9-D16DF326F4B6">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 22:34:40 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEnderecoCliente" id="18970555-5B27-2C74-A7EB-FD2B53A7639B">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 22:34:40 UTC</createdTime>
+<comment><![CDATA[Endereço completo da pessoa, sendo:
+Logradouro: Nome da rua ou avenida; 
+Número: Número da casa ou prédio;
+Complemento: Informações adicionais que ajudam a identificar a unidade residencial ou comercial; 
+Bairro: Região do bairro onde se encontra o endereço; 
+Localidade: Nome da cidade, município ou região; 
+Estado: Sigla do estado onde se encontra o endereço. ]]></comment>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEnderecoCliente" id="BFF3DE13-6650-52E3-E9D2-DAFA092AD97C">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 22:34:40 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEnderecoCliente" id="95A71A59-5930-9CE6-4456-B98FEEFC9562">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 22:34:40 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEnderecoCliente" id="CBF5CEA8-A251-DA30-B867-96C35CCF9799">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 22:34:40 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEnderecoCliente" id="70DA03B9-C605-BFA6-23FB-0567362C0A21">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 22:34:40 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="62C48307-83DF-E1CB-BAAE-028FBA234EB0">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 22:41:50 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>F2411680-1373-95C5-C169-547247556493</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<referedAttribute>F7D37484-590C-ACA8-F6B0-8D856E42C650</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FAA0CB33-1AEA-7337-0571-DA53DF03B6F8" name="Clientes PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 22:34:40 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE173C8D-7881-BA1A-02BB-894E1B5DF7B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

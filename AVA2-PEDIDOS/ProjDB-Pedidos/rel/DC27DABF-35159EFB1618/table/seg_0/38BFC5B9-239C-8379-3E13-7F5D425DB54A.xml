@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38BFC5B9-239C-8379-3E13-7F5D425DB54A" name="ItemPedido">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:08:38 UTC</createdTime>
+<generatorID>97847162-FDD4-6F7A-F8F4-7783566D7DDC</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idItemPedido" id="09B51FEB-3035-83B6-00CA-AE6A95527679">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:08:38 UTC</createdTime>
+<generatorID>4BE4ADAE-4227-1937-D1BD-FB1F26438D21</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idPedido" id="1F26DB6B-FBFA-5B70-0265-A304BD197681">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:08:38 UTC</createdTime>
+<generatorID>605E0BA0-2EAC-0C7B-1CBA-5F563E159E12</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigoProduto" id="2E7A2E1A-FE25-5D22-4E44-8338231E5DA3">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:08:38 UTC</createdTime>
+<generatorID>F2F88670-8C28-2C4E-9F37-0CC8751F46E4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricaoProduto" id="446F019D-2936-1B1F-3C97-08DB1578258E">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:08:38 UTC</createdTime>
+<generatorID>7E03C217-33C1-E508-7E37-752837F644A5</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="E23432E2-9102-8986-52DB-789CB84A73FE">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:08:38 UTC</createdTime>
+<generatorID>C6E78DEB-D00B-E614-D75B-72750F98245F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitario" id="6940875F-0E89-3DB1-F967-6DB4C8D7867D">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:08:38 UTC</createdTime>
+<generatorID>B22DC621-193F-CFF3-5AFD-9ECE78B05C91</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedidos_idPedido" id="AFD7DB2A-E699-A910-55AF-0F04B638E8A6">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:08:38 UTC</createdTime>
+<generatorID>6AE7E097-CB50-3AEA-E222-F436011B8FFB</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="205BABDB-3621-67D4-C9B6-55DEB0DBD6BB" referredColumn="1C193970-D308-CA84-4718-F217190BCA7B"/>
+</associations>
+</Column>
+<Column name="Vendedor_idvendedor" id="78547EA9-B4FF-EFA7-FB76-1AB634A17523">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:08:38 UTC</createdTime>
+<generatorID>9BE76E29-8509-3C2E-CCA5-63EF5CE9A3D9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EA7509B-90C2-1C5F-4EB7-358530865CD8" referredColumn="FE80603F-2CF1-0661-C7D9-096675D1A543"/>
+</associations>
+</Column>
+<Column name="Pedidos_idPedido2" id="44E2572C-19D1-383C-AEBA-30E4763893F0">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:17:43 UTC</createdTime>
+<generatorID>E823D04A-2A84-BF7B-374A-F49B0AC935BC</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A87EA0E-D680-EBA4-47E4-AA52CFBDBC4E" referredColumn="1C193970-D308-CA84-4718-F217190BCA7B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4160169E-3E62-DF45-3B32-73AB368D1A97" name="ItemPedido_PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:08:38 UTC</createdTime>
+<generatorID>CE5F28D8-5176-3F9A-33E6-6769A787FBB4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09B51FEB-3035-83B6-00CA-AE6A95527679"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8F38ADA-F209-B66D-8B93-F22622248EC1" name="ItemPedido__IDX">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:08:38 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F593D730-FC97-0255-BF6F-8D163AB402A3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="78547EA9-B4FF-EFA7-FB76-1AB634A17523"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4932D482-51D4-EACA-A8C0-CB5A96C2DA03" name="ItemPedido__IDXv1">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:17:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>47E5D0C8-E7CE-7BD9-1312-BC964711B667</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="44E2572C-19D1-383C-AEBA-30E4763893F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A10C4CE-683C-D5A5-E3F5-2C221548844B" name="ItemPedido_Pedidos_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:08:38 UTC</createdTime>
+<generatorID>E58B32DF-9F21-532A-A481-9088EAB0158D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFD7DB2A-E699-A910-55AF-0F04B638E8A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4ED856E9-3FD5-CE4A-6A68-F207D9C3D455" name="ItemPedido_Vendedor_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:08:38 UTC</createdTime>
+<generatorID>F593D730-FC97-0255-BF6F-8D163AB402A3</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78547EA9-B4FF-EFA7-FB76-1AB634A17523"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="011F558A-3C2E-0127-8E4B-F4552B2EAA5B" name="ItemPedido_Pedidos_FKv2">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-09 00:17:43 UTC</createdTime>
+<generatorID>47E5D0C8-E7CE-7BD9-1312-BC964711B667</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44E2572C-19D1-383C-AEBA-30E4763893F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

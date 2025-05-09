@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProjBD-Pet" id="011E4C3A-75AB-B172-F634-6C3ACB74D641" version="3.5">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-03-27 22:47:35 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>011E4C3A-75AB-B172-F634-6C3ACB74D641</designId>
+</OSDM_Design>

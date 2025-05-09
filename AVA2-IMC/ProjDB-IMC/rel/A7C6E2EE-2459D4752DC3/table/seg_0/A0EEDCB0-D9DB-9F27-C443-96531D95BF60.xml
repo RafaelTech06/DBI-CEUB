@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0EEDCB0-D9DB-9F27-C443-96531D95BF60" name="Cliente">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:23:49 UTC</createdTime>
+<generatorID>91E28F85-4B37-30B3-0BFB-99A2CBED8680</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<abbreviation>Cliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome" id="3E4FF8A5-409D-C319-1CB9-528B5EC4427D">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:23:49 UTC</createdTime>
+<generatorID>2EE8924B-6DF3-B74B-4EA8-2EE808ED49B9</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="7BF197B1-85AB-1980-2169-89CA25937D20">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:23:49 UTC</createdTime>
+<generatorID>E02F9786-4748-24BD-E7F5-79A66408266C</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cpf" id="96144808-BBF9-1DF9-BADE-8F1DDC8AA48A">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:23:49 UTC</createdTime>
+<generatorID>6A63D9C0-424C-D068-F3EA-6D6359275BC6</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="151263FE-F1DD-C439-250D-41F825D1BCDF">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:23:49 UTC</createdTime>
+<generatorID>517009B6-42C6-5109-51D2-0D2076A5D7A9</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNascimento" id="7D4D9BDF-F110-C139-7F8F-9A08AB96AD26">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:23:49 UTC</createdTime>
+<generatorID>8F6C7820-47ED-2337-5EC1-454965D25D4E</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gênero" id="EEB01FE1-54DC-8507-6CF0-7977EEE0D7C4">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:23:49 UTC</createdTime>
+<generatorID>634C6FC9-E6F3-382E-6477-CC711AE177F7</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_ID" id="C66659C0-0B83-DC88-A59A-04B6CC72CE7F">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:23:49 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F754958-B297-1271-9F43-FC589F37C7A7" name="Cliente_PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:23:49 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C66659C0-0B83-DC88-A59A-04B6CC72CE7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

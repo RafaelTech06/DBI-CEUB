@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9B72C07-B8C8-6D76-8AB4-9D505B1EF4AC" name="EmailCliente">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>3DC00829-9163-E4E1-C0EC-17DF8400CB11</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<abbreviation>EmailCliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="8E34B5AD-536F-0FEC-CBF0-175ECA87BF20">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>9B909086-A9BE-6485-FF29-1D9D852D58FD</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emailCliente" id="919CAA81-8053-326C-EF9E-C191172C0A5F">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>5FC67ACD-D9BC-4E37-4753-65BAB2A61A7B</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente1" id="776A780E-3B29-5543-607C-8B3A28D65008">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>BC2A7BE7-2F88-EA83-D421-69F6E0525A54</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F39CB4F-51A8-3DBE-196A-B8FBB7FBA982" name="EmailCliente_PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>30EFD38D-84D7-D91E-0978-D5D9FB2A49A4</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E34B5AD-536F-0FEC-CBF0-175ECA87BF20"/>
+<colUsage columnID="919CAA81-8053-326C-EF9E-C191172C0A5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93A5C655-340A-636A-0B39-0D7DA388B14B" name="EmailCliente_Clientes_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>066D4E52-5F3F-9444-381E-1809D01DB388</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF8FF62C-1D85-7444-DB3C-4656781232C0" name="EnderecoCliente">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>99591110-E847-F152-04FA-5F34F6914D9F</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="logradouroEnderecoCliente" id="D570A568-1CFC-5B5B-1BA7-E359F2739180">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>FE052015-23A5-5720-BEF9-D16DF326F4B6</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nroEnderecoCliente" id="95B343C1-28CD-D802-8CDF-EB8AE25EC87A">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<comment><![CDATA[Endereço completo da pessoa, sendo:
+Logradouro: Nome da rua ou avenida; 
+Número: Número da casa ou prédio;
+Complemento: Informações adicionais que ajudam a identificar a unidade residencial ou comercial; 
+Bairro: Região do bairro onde se encontra o endereço; 
+Localidade: Nome da cidade, município ou região; 
+Estado: Sigla do estado onde se encontra o endereço. ]]></comment>
+<generatorID>18970555-5B27-2C74-A7EB-FD2B53A7639B</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complementoEnderecoCliente" id="BA11EEBB-1327-8695-B7B8-3493878F98DD">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>BFF3DE13-6650-52E3-E9D2-DAFA092AD97C</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidadeEnderecoCliente" id="35A5DC6A-E851-5A0C-3758-6896244ABA1F">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>95A71A59-5930-9CE6-4456-B98FEEFC9562</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufEnderecoCliente" id="18C348E4-64C5-5213-798C-B7B47E6EBFB7">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>CBF5CEA8-A251-DA30-B867-96C35CCF9799</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente1" id="7B38C332-BBB3-502E-14F3-821DD2E4ED60">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>62C48307-83DF-E1CB-BAAE-028FBA234EB0</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepEnderecoCliente" id="C1DBB722-D17C-B8AE-1F2E-069E01FF3850">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<generatorID>70DA03B9-C605-BFA6-23FB-0567362C0A21</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FB6BC2A-F20C-97CF-DD14-ABF4BBE57BF8" name="EnderecoCliente_PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>FAA0CB33-1AEA-7337-0571-DA53DF03B6F8</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="D452FA3A-F6D1-5ADF-17B3-F1F656D50F01" name="EnderecoCliente_Clientes_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>F2411680-1373-95C5-C169-547247556493</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

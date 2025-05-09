@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD80D02D-51B5-4B9E-F660-39AD3F194312" name="TelefonesCliente">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>97DC76A3-4D02-C9CF-9A40-FBAF07E77428</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<abbreviation>TelefonesCliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="B03C3CFC-94F6-68FD-D360-F5F73584DC7E">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>27DD4B13-021E-43C4-EAC1-D299CC8E39AD</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneCliente" id="2031F2B1-08DE-8D1D-7CF6-6FF31FEBDD4E">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>AD79E2C6-C4A6-F034-010F-FB2F3AD9924D</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoTelefoneCliente" id="CBD447C7-5676-AF7A-55BD-3A26BE6DACB6">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>99D383BF-B2F3-7644-AE88-F1A4F87AFD5E</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente1" id="F0F6252D-921A-120E-6F46-5C882E0B436A">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>1F60B736-27FA-1532-6610-DB20B3C6C5C6</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2244CCB-4B93-2F7B-ACAE-6BF36974A719" name="TelefonesCliente_PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>78A4BB3B-BF0D-0F99-C932-65D1D965EBD3</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B03C3CFC-94F6-68FD-D360-F5F73584DC7E"/>
+<colUsage columnID="2031F2B1-08DE-8D1D-7CF6-6FF31FEBDD4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFEDA201-7F1E-ADE1-6AEA-886BEB1FD333" name="TelefonesCliente_Clientes_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-08 23:19:58 UTC</createdTime>
+<generatorID>57CA0624-6731-6F09-3B46-5B91D64BB54E</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97DC76A3-4D02-C9CF-9A40-FBAF07E77428" name="TelefonesCliente">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-25 00:39:54 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TelefonesCliente</shortName>
+<synonym>TelefonesCliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="27DD4B13-021E-43C4-EAC1-D299CC8E39AD">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-25 00:45:02 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneCliente" id="AD79E2C6-C4A6-F034-010F-FB2F3AD9924D">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-25 00:45:32 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefoneCliente" id="99D383BF-B2F3-7644-AE88-F1A4F87AFD5E">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-25 00:45:18 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="1F60B736-27FA-1532-6610-DB20B3C6C5C6">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-25 00:53:38 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>57CA0624-6731-6F09-3B46-5B91D64BB54E</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<referedAttribute>F7D37484-590C-ACA8-F6B0-8D856E42C650</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78A4BB3B-BF0D-0F99-C932-65D1D965EBD3" name="TelefonesCliente PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-25 00:52:01 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>27DD4B13-021E-43C4-EAC1-D299CC8E39AD</attributeRef>
+<attributeRef>AD79E2C6-C4A6-F034-010F-FB2F3AD9924D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

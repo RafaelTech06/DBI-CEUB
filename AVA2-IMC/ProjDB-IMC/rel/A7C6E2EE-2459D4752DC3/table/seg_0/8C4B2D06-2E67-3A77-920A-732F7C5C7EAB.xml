@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C4B2D06-2E67-3A77-920A-732F7C5C7EAB" name="clienteIndiceMassaCorporal">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:43:42 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cliente_Cliente_ID" id="3B078D6C-B362-0D65-0070-F8E64BFD540C">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:43:42 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE20A114-72DE-8B19-3F46-205FECBF1ACC" referredColumn="C66659C0-0B83-DC88-A59A-04B6CC72CE7F"/>
+</associations>
+</Column>
+<Column name="indiceMassaCorporal_indiceMassaCorporal_ID" id="86DF70C4-A965-74B6-3CC5-8658D2BF1F06">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:43:42 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29C33F24-FC80-34C9-704D-6010C3232E58" referredColumn="130B163E-B4F2-5643-B7E7-EB903A4CE54E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B460D79E-2CD7-DB2A-781E-696195A4FBB1" name="clienteIndiceMassaCorporal_PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:43:42 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B078D6C-B362-0D65-0070-F8E64BFD540C"/>
+<colUsage columnID="86DF70C4-A965-74B6-3CC5-8658D2BF1F06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="431E9050-231B-07AF-2775-5A11516B235D" name="clienteIndiceMassaCorporal_Cliente_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:43:42 UTC</createdTime>
+<generatorID>0383A6D9-7914-5019-D4A8-72B55BCA06C0</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B078D6C-B362-0D65-0070-F8E64BFD540C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6954F568-E7E4-D9F1-EE28-850DB22EDEE7" name="clienteIndiceMassaCorporal_indiceMassaCorporal_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-04-11 00:43:42 UTC</createdTime>
+<generatorID>0383A6D9-7914-5019-D4A8-72B55BCA06C0</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86DF70C4-A965-74B6-3CC5-8658D2BF1F06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
