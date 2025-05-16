@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F615D96-0CD7-5F07-F198-2FF53167A703" name="Associado">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<generatorID>6529C181-E892-FB47-51F8-479DA24E5869</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAssociado" id="828E5AE1-0481-820D-8043-49BFC32EA963">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<generatorID>9E64EF3B-CA9C-7C86-C703-76C3AC27F6B6</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipTitular" id="915FF0B2-C9BA-9AC1-5B94-CEC9E9A33BB2">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<generatorID>5CDDC059-7FD7-57F5-7403-DB7C44B5870A</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titular_idAssociado" id="5BF7AD03-BD9D-377D-064E-FF79EB29FAE4">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<generatorID>EA335664-61F6-3DF2-DC27-9F7C06147046</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D175ECF-4EA3-19D2-1F8B-403EABAF25ED" referredColumn="07176554-EB5D-6C33-632B-53925C721E38"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71395FCD-F2FF-6046-0A56-0B992B803470" name="Associado_PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<generatorID>E42F6B5F-5BED-A4AF-87FE-854E5DEC5472</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="828E5AE1-0481-820D-8043-49BFC32EA963"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4E469D5-96A3-7142-EBA9-F4F3E634B801" name="Associado_titular_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<generatorID>8DA95C87-0F7D-E234-635E-28B33A38B25A</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BF7AD03-BD9D-377D-064E-FF79EB29FAE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

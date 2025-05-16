@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3308225-311C-10FD-2EB1-A18F96FE9AB1" name="Relation_12">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Telefone_idTelefone" id="060CF9F0-F486-E65E-4865-C5C5E67915CF">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38EA721C-B1C6-B833-33BA-CC95AB23DDC7" referredColumn="B305D8BE-AF33-6205-2228-CC60A24D4878"/>
+</associations>
+</Column>
+<Column name="Mensalidade_idMensalidade" id="A5648A3D-E8E4-2A97-0D35-D0A268479502">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE6A2CF0-ED20-AB32-C796-2579CBE7C1B4" referredColumn="4078FE2F-31CC-823A-10E0-C9CA1C6E8E91"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6454087-F725-2F4A-BEAB-E37DD832482D" name="Relation_12_PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="060CF9F0-F486-E65E-4865-C5C5E67915CF"/>
+<colUsage columnID="A5648A3D-E8E4-2A97-0D35-D0A268479502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AC2C839-BEB9-5AF0-C9EF-C206D5A4D9F2" name="Relation_12_Telefone_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<generatorID>4BF4399B-FA07-B095-1D62-955177E44EC9</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="060CF9F0-F486-E65E-4865-C5C5E67915CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="536A596C-7DA3-FF2D-B237-45E21C20A68E" name="Relation_12_Mensalidade_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<generatorID>4BF4399B-FA07-B095-1D62-955177E44EC9</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5648A3D-E8E4-2A97-0D35-D0A268479502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

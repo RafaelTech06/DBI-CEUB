@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E090FD8F-0EF4-D1A4-F04C-82551CC3409E" containerWithKeyObject="9B3E2F1C-56A6-5D22-6ACA-F4112C1A762A" localFKIndex="991DC6E7-0CFD-EB5A-A183-E4BCC8D389FB" name="Login_Mensalidade_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<generatorID>C2ACA84D-8468-61C7-A033-349F51807FAF</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<referredTableLongName>Mensalidade</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96ECFFA9-1D9F-13E4-DF38-84D8660CFA39</referredTableID>
+<keyObject>F76F05B6-14D4-2972-D2A2-859259681389</keyObject>
+<referredKeyID>F76F05B6-14D4-2972-D2A2-859259681389</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idMensalidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

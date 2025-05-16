@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C443EDD-7BCE-5F0E-469A-4DB4E86EFC73" name="Login">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:19:38 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7907EAE2-20B6-E983-8D9C-7788ADF849C4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idLogin" id="16C93BA7-22A1-E2C8-83C8-27D16C82B93E">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:19:50 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7907EAE2-20B6-E983-8D9C-7788ADF849C4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAssociado" id="361A8A6D-C20D-1409-C7C5-5D4990905985">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:20:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7907EAE2-20B6-E983-8D9C-7788ADF849C4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario" id="538FE2F6-63BF-EB2D-B9AB-A4868D96BA8D">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:20:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7907EAE2-20B6-E983-8D9C-7788ADF849C4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senhaHash" id="0C0669A2-B812-E6F6-DACD-F9BD079EC345">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:20:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7907EAE2-20B6-E983-8D9C-7788ADF849C4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="perfil" id="E8D04344-01F7-00E4-3898-DE3DC19C9892">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:20:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7907EAE2-20B6-E983-8D9C-7788ADF849C4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idMensalidade" id="D0065148-4E7D-0802-EDDB-A4D42A74DF02">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:33:21 UTC</createdTime>
+<generatorID>C2ACA84D-8468-61C7-A033-349F51807FAF</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7907EAE2-20B6-E983-8D9C-7788ADF849C4" value="true"/>
+</engineerTo>
+<referedAttribute>D4F17A5B-5860-98A0-DB5A-39AC7F515D29</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idDependente1" id="5A95F016-2C9C-CDFE-B392-D10D80CDF8CC">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:44:15 UTC</createdTime>
+<generatorID>5E940F6D-8986-B9D4-B0BA-D7230150DC83</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7907EAE2-20B6-E983-8D9C-7788ADF849C4" value="true"/>
+</engineerTo>
+<referedAttribute>ACFB4230-25E7-8D15-AA91-1F077FE92997</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A5A0870-CA62-EABF-77CD-1471B98371AB" name="Login PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:21:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7907EAE2-20B6-E983-8D9C-7788ADF849C4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16C93BA7-22A1-E2C8-83C8-27D16C82B93E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

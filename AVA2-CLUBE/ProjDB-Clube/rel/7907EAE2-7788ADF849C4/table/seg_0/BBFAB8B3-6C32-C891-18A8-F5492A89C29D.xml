@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBFAB8B3-6C32-C891-18A8-F5492A89C29D" name="Relation_8">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Associado_idAssociado" id="E9BC384D-F4A0-81EB-99F5-067D6DD8DC39">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="080BF377-AEC8-A9EE-4DC6-CD3D88D6CBBE" referredColumn="828E5AE1-0481-820D-8043-49BFC32EA963"/>
+</associations>
+</Column>
+<Column name="Mensalidade_idMensalidade" id="2009DB1A-014D-6BF8-7973-19868A502703">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="404280C9-AB87-668F-B1BE-5209BBF6C74A" referredColumn="4078FE2F-31CC-823A-10E0-C9CA1C6E8E91"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EF7D75A-0348-50A3-250B-FB4E246DBC43" name="Relation_8_PK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9BC384D-F4A0-81EB-99F5-067D6DD8DC39"/>
+<colUsage columnID="2009DB1A-014D-6BF8-7973-19868A502703"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78A1175B-E794-98BF-5D05-A9B6B438E392" name="Relation_8_Associado_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<generatorID>D9FB463F-5051-9367-6A19-E841476BA3AE</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9BC384D-F4A0-81EB-99F5-067D6DD8DC39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD6DD83A-9C57-FC30-8514-9ADD689B0DE4" name="Relation_8_Mensalidade_FK">
+<createdBy>rafael.torresteixeir</createdBy>
+<createdTime>2025-05-15 23:53:56 UTC</createdTime>
+<generatorID>D9FB463F-5051-9367-6A19-E841476BA3AE</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2009DB1A-014D-6BF8-7973-19868A502703"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
